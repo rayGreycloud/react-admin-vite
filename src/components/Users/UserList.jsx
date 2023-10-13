@@ -8,7 +8,7 @@ const UserList = () => (
       tertiaryText={(record) => record.email}
       linkType={(record) => "show"}
       rowSx={(record) => ({
-        backgroundColor: record.website.length >= 12 ? "#efe" : "white",
+        backgroundColor: record.website.length >= 13 ? "#efe" : "white",
       })}
     />
   </List>
